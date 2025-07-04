@@ -38,7 +38,7 @@ A **role-based React application** that helps Admins, Managers, and Employees to
 | **Routing**    | React Router DOM                                   |
 | **State**      | React Hooks (`useState`, `useEffect`, Context API) |
 | **Storage**    | localStorage, Firebase (optional)                  |
-| **Deployment** | Netlify/Vercel (or your host)                      |
+
 
 ---
 
@@ -86,14 +86,13 @@ npm run dev
 
 ## ✅ Future Improvements
 
-* 🔁 Backend API & database integration (Node.js / Express / MongoDB)
 * 📧 Email notifications on task updates
 * 🗖️ Calendar-based task view
 * 🡩‍🏫 Role-based onboarding guides
 
 ---
 
-## 👨‍💼 Author
+## Contact Info
 
 *🔗 LinkedIn: [https://www.linkedin.com/in/thanga-mari-03334126b/]
 
