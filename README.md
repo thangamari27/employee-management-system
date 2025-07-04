@@ -94,12 +94,10 @@ npm run dev
 ---
 
 ## 👨‍💼 Author
-```
-🔗 LinkedIn: [https://linkedin.com/in/yourprofile]
-```
-```
-💼 Portfolio: [https://tm-dev-portfolio.web.app/]
-```
-```
-📧 Email: [mailto:thangamari616@gmail.com]
-```
+
+*🔗 LinkedIn: [https://www.linkedin.com/in/thanga-mari-03334126b/]
+
+*💼 Portfolio: [https://tm-dev-portfolio.web.app/]
+
+*📧 Email: [mailto:thangamari616@gmail.com]
+
