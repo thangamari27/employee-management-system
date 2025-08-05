@@ -1,0 +1,47 @@
+" npm install -g firebase-tools
+>>
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: 'superstatic@9.2.0',
+npm warn EBADENGINE   required: { node: '18 || 20 || 22' },
+npm warn EBADENGINE   current: { node: 'v24.2.0', npm: '11.3.0' }
+npm warn EBADENGINE }
+npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead       
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Asus\\AppData\\Roaming\\npm\\node_modules\\firebase-tools',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@google-cloud\cloud-sql-connector\node_modules\gtoken'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Asus\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\node_modules\\@google-cloud\\cloud-sql-connector\\node_modules\\gtoken'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Asus\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@google-cloud\cloud-sql-connector\node_modules\gtoken'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Asus\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\node_modules\\@google-cloud\\cloud-sql-connector\\node_modules\\gtoken'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\Asus\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\node_modules\\re2',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\re2\vendor\abseil-cpp\absl\time\internal'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\Asus\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\node_modules\\re2\\vendor\\abseil-cpp\\absl\\time\\internal'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code ECONNRESET
+npm error syscall read
+npm error errno -4077
+npm error network read ECONNRESET
+npm error network This is a problem related to network connectivity.
+npm error network In most cases you are behind a proxy or have bad network settings.
+npm error network
+npm error network If you are behind a proxy, please make sure that the
+npm error network 'proxy' config is set properly.  See: 'npm help config'
+npm error A complete log of this run can be found in: C:\Users\Asus\AppData\Local\npm-cache\_logs\2025-08-02T17_17_23_072Z-debug-0.log" how to fix the bug and errors.
