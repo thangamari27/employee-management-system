@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🧑‍💼 Employee Management System (EMS)
 
 A **role-based React application** that helps Admins, Managers, and Employees to **manage daily tasks**, **track attendance**, and **update profiles**. This system uses **conditional rendering, routing, and CRUD operations** with a well-structured folder architecture.
