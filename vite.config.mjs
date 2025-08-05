@@ -18,21 +18,23 @@ export default defineConfig(({ mode }) => {
       global: 'window' // Fix for some legacy libraries
     },
 
-    resolve: {
+      resolve: {
       alias: [
         {
           find: /^~(.+)/,
-          replacement: path.join(process.cwd(), 'node_modules/$1')
+          replacement: (_, p1) => path.join(process.cwd(), 'node_modules', p1)
         },
         {
-          find: /^src(.+)/,
-          replacement: path.join(process.cwd(), 'src/$1')
+          find: /^src\/(.*)/,
+          replacement: (_, p1) => path.resolve(process.cwd(), 'src', p1)
         },
-         {
-          pages: path.resolve(__dirname, 'src/pages'),
+        {
+          find: /^src$/,
+          replacement: path.resolve(process.cwd(), 'src')
         }
       ]
     },
+
 
     server: {
       open: true,
